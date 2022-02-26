@@ -1,0 +1,174 @@
+{ "replacements":
+  {"break。":
+    { "find": "。",
+        "greedy": true,
+        "name": "break。",
+        "replace": "。\n\n"
+    },
+   "break。”":
+      { "find": "。\n\n”",
+        "greedy": true,
+        "name": "break。”",
+        "replace": "。”\n"
+      },
+   "break。quote":
+      { "find": "。\n\n\"",
+        "greedy": true,
+        "name": "break。quote",
+        "replace": "。\"\n"
+      },
+   "break。」":
+      { "find": "。\n\n」",
+        "greedy": true,
+        "name": "break。」",
+        "replace": "。」\n"
+      },
+   "break。』":
+      { "find": "。\n\n』",
+        "greedy": true,
+        "name": "break。』",
+        "replace": "。』\n"
+      },
+   "break！":
+      { "find": "！",
+        "greedy": true,
+        "name": "break！",
+        "replace": "！\n"
+      },
+   "break：":
+      { "find": "：",
+        "greedy": true,
+        "name": "break：",
+        "replace": "：\n"
+      },
+   "break：”":
+      { "find": "：\n”",
+        "greedy": true,
+        "name": "break：”",
+        "replace": "：”\n"
+      },
+   "break！”":
+      { "find": "！\n”",
+        "greedy": true,
+        "name": "break！”",
+        "replace": "！”\n"
+      },
+   "break；":
+      { "find": "；",
+        "greedy": true,
+        "name": "break；",
+        "replace": "；\n"
+      },
+   "break？":
+      { "find": "？",
+        "greedy": true,
+        "name": "break？",
+        "replace": "？\n"
+      },
+   "break？”":
+      { "find": "？\n”",
+        "greedy": true,
+        "name": "break？”",
+        "replace": "？”\n"
+      },
+        "replaceMulRet":
+    { "find": "\r  {2,}",
+        "greedy": true,
+        "name": "break. ",
+        "replace": "\r"
+      },
+        "replaceMulLF":
+    { "find": "\n  {3,}",
+        "greedy": true,
+        "name": "break. ",
+        "replace": "\n"
+      },
+
+   "replaceChSpace":
+    { "find": "　",
+        "greedy": true,
+        "name": "replaceChSpace",
+        "replace": ""
+      },
+
+   "replacePeriod":
+    { "find": "\\. {1,}",
+        "greedy": true,
+        "name": "replacePeriod",
+        "replace": ". \\n"
+      },
+
+   "replacsUS":
+    { "find": "U\\.S\\. \\n」",
+        "greedy": true,
+        "name": "replacsUS",
+        "replace": "U.S. "
+      },
+
+   "break？」":
+    { "find": "？\n」",
+        "greedy": true,
+        "name": "break？」”",
+        "replace": "？」\n"
+      },
+   "U.S. ":
+    { "find": "U.S. \n」",
+        "greedy": true,
+        "name": "U.S. ",
+        "replace": "U.S. "
+      },
+   "e.g. ":
+    { "find": "e.g. \n」",
+        "greedy": true,
+        "name": "e.g. ",
+        "replace": "e.g. "
+      },
+
+   "replacsDr":
+    { "find": "Dr\\. \\n」",
+        "greedy": true,
+        "name": "replacsDr",
+        "replace": "Dr. "
+      },
+
+   "break。)":
+    { "find": "。\n\n\\)",
+        "greedy": true,
+        "name": "break。)",
+        "replace": "。)"
+      },
+   "breakBlocks":
+    { "find": "((^.*\n){3})",
+        "greedy": true,
+        "name": "breakBlocks",
+        "replace": "\\1\n"
+      },
+   "cleanUpHtml":
+    { "find": "(<div.*?>|<p.*?>|</div>|</p>|</pre>| class=\".*?\"| id=\".*?\"|<section.*?>|</section>|<header.*?>|</header>|^ {1,}|^\t{1,}|<hr>|<span.*?>|</span>|<blockquote.*?>|</blockquote>)|<script.*?</script>|loading=\"lazy\"|width=\"\\d{1,}\"|height=\"\\d{1,}\"|src=\"data:.*?\"|alt=\".*?\"|<figure.*?>|</figure>|<noscript>.*?</noscript>|title=\".*?\"|<t.*?>|</t.*?>| style=\".*?\"|&nbsp;|<font.*?>|</font>|<br.*?>",
+  
+        "greedy": true,
+        "name": "cleanUpHtml",
+        "replace": ""
+      },
+   "rmvEmptyLines":
+    { "find": "((^\n){1,}|(^ {1,}\n)|(^\t{1,}\n)|(^ {1,})|(^　{1,})|^(&nbsp;){1,}\n|(&nbsp;){1,}\n)",
+        "greedy": true,
+        "name": "breakBlocks",
+        "replace": ""
+      },
+   "removeBreakLine":
+    { "find": "\n",
+        "greedy": true,
+        "name": "removeBreakLine",
+        "replace": ""
+      },
+
+   "replaceTimeSegment":
+    { "find": "( \\d\\d:)",
+        "greedy": true,
+        "name": "replaceTimeSegment",
+        "replace": "\n\\1"
+      },
+
+}
+}

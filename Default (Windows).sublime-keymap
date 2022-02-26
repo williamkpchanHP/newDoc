@@ -1,0 +1,42 @@
+[
+{"keys": ["ctrl+k", "ctrl+b"], "command": "toggle_side_bar" },
+{"keys": ["ctrl+k", "ctrl+k"], "command": "toggle_status_bar" },
+//{"keys": ["ctrl+k", "ctrl+."], "command": "title_case"},
+
+{"keys": ["ctrl+shift+d"], "command": "duplicate_lines" },
+{"keys": ["ctrl+shift+e"], "command": "run_macro_file",  "args": { "file": "Packages/User/EOLmac.sublime-macro" }},
+{"keys": ["ctrl+shift+j"], "command": "split_selection_into_lines" },
+{"keys": ["ctrl+shift+l"], "command": "editor.action.insertCursorAtEndOfEachLineSelected", "when": "editorTextFocus "},
+{"keys": ["ctrl+shift+m"], "command": "run_macro_file",  "args": { "file": "Packages/User/ahref tail.sublime-macro" }},
+{"keys": ["ctrl+shift+n"], "command": "run_macro_file",  "args": { "file": "Packages/User/regReplaceRvBreak.sublime-macro" }},
+{"keys": ["ctrl+shift+r"], "command": "reopen_last_file"},
+{"keys": ["ctrl+shift+t"], "command": "toggle_tabs"},
+{"keys": ["ctrl+shift+,"], "command": "run_macro_file",  "args": { "file": "Packages/User/replaceNunique.sublime-macro" }},
+{"keys": ["ctrl+shift+."], "command": "run_macro_file",  "args": { "file": "Packages/User/regReplaceCleanHtml.sublime-macro" }},
+{"keys": ["ctrl+shift+/"], "command": "run_macro_file",  "args": { "file": "Packages/User/regReplacermvEmptyLines.sublime-macro" }},
+{"keys": ["ctrl+shift+'"], "command": "run_macro_file",  "args": { "file": "Packages/User/cutSentenses.sublime-macro" }},
+{"keys": ["ctrl+shift+j"], "command": "run_macro_file",  "args": { "file": "Packages/User/replaceTimeSegment.sublime-macro" }},
+{"keys": ["ctrl+shift+k"], "command": "run_macro_file",  "args": { "file": "Packages/User/convertAcodes.sublime-macro" }},
+
+{"keys": ["ctrl+alt+c"], "command": "title_case"},
+{"keys": ["ctrl+alt+B"], "command": "cancel_build" },
+{"keys": ["ctrl+alt+/"], "command": "toggle_setting","args": {"setting": "line_numbers"}},
+{"keys": ["ctrl+alt+w"], "command": "toggle_setting","args": {"setting": "word_wrap"}},
+{"keys": ["ctrl+alt+l"], "command": "toggle_setting","args": {"setting": "line_numbers"}},
+{"keys": ["ctrl+alt+b"], "command": "run_existing_window_command", "args": {"id": "repl_python_run", "file": "config/Python/Main.sublime-menu"}},
+
+{"keys": ["f8"], "command": "permute_lines", "args": {"operation": "unique"} },
+{"keys": ["f12"], "command": "reindent", "args": {"single_line": true}},
+
+{"keys": ["ctrl+d"], "command": "duplicate_line" },
+{"keys": ["ctrl+."],  "command": "run_macro_file",  "args": { "file": "Packages/User/insertline.sublime-macro" }},
+
+{"keys": ["tab"], "command": "insert", "args": {"characters": "\t"}, "context": [{ "key": "auto_complete_visible" }]},
+
+{"keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+{"keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+
+{"keys": ["alt+k"],  "command": "run_macro_file",  "args": { "file": "Packages/User/splitInBlocks.sublime-macro" }},
+
+]
+

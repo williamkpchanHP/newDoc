@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "RegReplace: process ChinChar",
+        "command": "reg_replace",
+        "args": {"replacements": [
+        "break. ",
+        "break。",
+        "break。”",
+        "break。」",
+        "break。』",
+        "break！",
+	   "break！”",
+        "break：",
+        "break：”",
+        "break；",
+        "break？",
+        "break？”",
+        "break？」",
+	   "break。quote",
+	   "break. ",
+	   ],
+         "find_only":false
+	   }
+    },
+    { "caption": "Find All",
+        "command": "find_all_under" ,
+        "command": "move",
+        "command": "insert"
+    },
+]

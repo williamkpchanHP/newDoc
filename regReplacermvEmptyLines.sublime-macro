@@ -1,0 +1,9 @@
+[	{"command": "reg_replace",
+	 "args": {"replacements": [ "rmvEmptyLines" ] }
+	 },
+
+	{"args": {"extend": false,
+			"to": "bof"},
+	 "command": "move_to"}
+]
+

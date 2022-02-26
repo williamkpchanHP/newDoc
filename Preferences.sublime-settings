@@ -1,0 +1,104 @@
+{
+	"added_words":
+	[
+		"it’s",
+		"won’t"
+	],
+	"auto_complete": false,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		}
+	],
+	"auto_indent": false,
+	"bold_folder_labels": true,
+	"caret_extra_width": 2,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/0Amytheme.tmTheme",
+	"default_encoding": "UTF-8",
+	"detect_indentation": false,
+	"detect_slow_plugins": false,
+	"fade_fold_buttons": false,
+	"fallback_encoding": "Western (Windows 1252)",
+	"font_face": "微軟雅黑",
+	"font_size": 16.0,
+	"gutter": true,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"ActionScript",
+		"AppleScript",
+		"ASP",
+		"Clojure",
+		"D",
+		"Default",
+		"Diff",
+		"Erlang",
+		"Go",
+		"Graphviz",
+		"Groovy",
+		"Haskell",
+		"Java",
+		"JSLint",
+		"LaTeX",
+		"Lisp",
+		"Lua",
+		"Makefile",
+		"Markdown",
+		"Matlab",
+		"Objective-C",
+		"OCaml",
+		"Pascal",
+		"Perl",
+		"Rails",
+		"RestructuredText",
+		"Rust",
+		"Scala",
+		"ShellScript",
+		"TCL",
+		"Textile",
+		"Vintage",
+		"YAML"
+	],
+	"ignored_words":
+	[
+		"40s",
+		"50s",
+		"70s",
+		"Let’s",
+		"We’ll",
+		"didn’t",
+		"doesn’t",
+		"don’t",
+		"heatwaves",
+		"he’d",
+		"he’d",
+		"he’d",
+		"there’s",
+		"they’re",
+		"wasn’t",
+		"year’s"
+	],
+	"line_numbers": false,
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
+	"open_files_in_new_window": true,
+	"remember_full_screen": true,
+	"rulers":
+	[
+		100
+	],
+	"show_encoding": true,
+	"spell_check": false,
+	"tab_completion": false,
+	"tab_size": 5,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"update_check": false,
+	"wide_caret": true,
+	"word_separators": "./\\()\"'-:,;<>~!@#$%^&*|+=[]{}`~?“”_",
+	"wrap_width": 65
+}

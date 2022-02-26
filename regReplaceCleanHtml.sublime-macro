@@ -1,0 +1,12 @@
+[	{"command": "reg_replace",
+	 "args": {"replacements": [
+                "cleanUpHtml",
+                "breakBlocks"
+               ] }
+	 },
+
+	{"args": {"extend": false,
+			"to": "bof"},
+	 "command": "move_to"}
+]
+

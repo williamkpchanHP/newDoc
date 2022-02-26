@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"Babel",
+		"BracketHighlighter",
+		"Compare Side-By-Side",
+		"ConvertToUTF8",
+		"Emmet",
+		"JavaScript Snippets",
+		"JSLint",
+		"Kotlin",
+		"LSP",
+		"Nodejs",
+		"Package Control",
+		"React IDE",
+		"ReactJS",
+		"RegReplace",
+		"SideBarEnhancements",
+		"SQLTools",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"SublimeREPL",
+		"VBScript",
+		"W3CValidators"
+	],
+	"repositories":
+	[
+		"https://github.com/facelessuser/sublime-backrefs.git"
+	]
+}

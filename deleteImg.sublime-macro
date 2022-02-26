@@ -1,0 +1,27 @@
+[
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "bol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"extend": true,
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	}
+]

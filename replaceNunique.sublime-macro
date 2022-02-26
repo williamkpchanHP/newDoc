@@ -1,0 +1,35 @@
+[	{"command": "reg_replace",
+	 "args": {"replacements": [
+				"break。",
+				"break？",
+				"break！",
+				"break：",
+				"break；",
+				"break？”",
+				"break？」",
+				"break：”",
+				"break。quote",
+				"break。』",
+				"break。”",
+				"break！”",
+				"break。」",
+				"break。)",
+				"replaceMulRet",
+				"replaceMulLF",
+				"replacePeriod",
+				"replacsUS",
+				"replacsDr",
+				"cleanUpHtml",
+				"rmvEmptyLines",
+				"breakBlocks"
+				] 
+			}
+	 },
+
+	//{"args": { "operation": "unique" }, "command": "permute_lines"},
+
+	{"args": {"extend": false,
+			"to": "bof"},
+	 "command": "move_to"}
+]
+

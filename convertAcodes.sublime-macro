@@ -1,0 +1,24 @@
+[
+	{
+		"args":
+		{
+			"close_panel": true
+		},
+		"command": "find_all"
+	},
+	{
+		"args":
+		{
+			"by": "word_ends",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": ".sh"
+		},
+		"command": "insert"
+	}
+]

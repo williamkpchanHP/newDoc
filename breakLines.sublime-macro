@@ -1,0 +1,14 @@
+[
+	{"command": "move_to","args":{	"extend": false,	"to": "bof"}},
+	{"command": "insert","args":{	"characters": "."}},
+	{"command": "insert","args":{	"characters": " "}},
+	{"command": "move","args":{	"by": "characters",	"extend": true,	"forward": false}},
+	{"command": "move","args":{	"by": "characters",	"extend": true,	"forward": false}},
+	{"command": "find_all_under","args": null},
+	{"command": "move","args":{	"by": "characters",	"forward": true}},
+	{"command": "insert","args":{	"characters": "\n"}},
+	{"command": "single_selection","args": null},
+	{"command": "move","args":{	"by": "characters",	"forward": false}},
+	{"command": "left_delete","args": null},
+	{"command": "left_delete","args": null}
+]

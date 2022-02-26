@@ -1,0 +1,5 @@
+{
+    "cmd": ["D:\\wamp64\\bin\\php\\php7.2.10\\php.exe", "$file"],
+    "file_regex": "php$",
+    "selector": "source.php"
+}

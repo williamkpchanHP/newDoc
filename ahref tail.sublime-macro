@@ -1,0 +1,51 @@
+[
+	{
+		"args":
+		{
+			"characters": "<a href=\""
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "hardeol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": "\" class=\"whitebut \">"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "right_delete"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "hardeol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": "</a>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+]

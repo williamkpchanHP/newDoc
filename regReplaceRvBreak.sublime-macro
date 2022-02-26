@@ -1,0 +1,6 @@
+[	{"command": "reg_replace",
+	 "args": {
+          "replacements": [ "removeBreakLine"] }
+	 },
+]
+

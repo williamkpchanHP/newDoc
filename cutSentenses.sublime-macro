@@ -1,0 +1,4 @@
+[	{"command": "reg_replace", "args": {"replacements": ["break. "]}},
+	{"args": { "operation": "unique" }, "command": "permute_lines"},
+	{"args": {"extend": false, "to": "bof"}, "command": "move_to"}
+]

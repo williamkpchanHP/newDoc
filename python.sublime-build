@@ -1,0 +1,6 @@
+{
+  "cmd": ["C:/WinPython/python-3.6.5.amd64/python.exe", "-u", "$file"],
+  "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+  "selector": "source.python",
+  "shell":"true"
+}
